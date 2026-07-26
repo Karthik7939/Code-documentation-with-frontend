@@ -1,0 +1,1233 @@
+{
+  "repository": "Karthik7939_TEST-REPO-MINDSTRIDE",
+  "commit_sha": "HEAD",
+  "nodes": {
+    "MindStride/backend/app/main.py": {
+      "file_path": "MindStride/backend/app/main.py",
+      "language": "py",
+      "symbols": [
+        "home",
+        "start_background_services"
+      ]
+    },
+    "MindStride/backend/app/ml/__init__.py": {
+      "file_path": "MindStride/backend/app/ml/__init__.py",
+      "language": "py",
+      "symbols": []
+    },
+    "MindStride/backend/app/ml/model.py": {
+      "file_path": "MindStride/backend/app/ml/model.py",
+      "language": "py",
+      "symbols": [
+        "preprocess",
+        "predict_category"
+      ]
+    },
+    "MindStride/backend/app/routes/__init__.py": {
+      "file_path": "MindStride/backend/app/routes/__init__.py",
+      "language": "py",
+      "symbols": []
+    },
+    "MindStride/backend/app/routes/logs.py": {
+      "file_path": "MindStride/backend/app/routes/logs.py",
+      "language": "py",
+      "symbols": [
+        "LogRequest",
+        "validateTimestamp",
+        "resolveOrCreateUser",
+        "buildActivityPayload",
+        "logActivityEvent",
+        "log_activity"
+      ]
+    },
+    "MindStride/backend/app/routes/predict.py": {
+      "file_path": "MindStride/backend/app/routes/predict.py",
+      "language": "py",
+      "symbols": [
+        "PredictRequest",
+        "PredictionResponse",
+        "validate_input",
+        "normalize_text",
+        "estimate_confidence",
+        "predict"
+      ]
+    },
+    "MindStride/backend/app/routes/summary.py": {
+      "file_path": "MindStride/backend/app/routes/summary.py",
+      "language": "py",
+      "symbols": [
+        "_fetch_summary",
+        "get_daily",
+        "get_weekly"
+      ]
+    },
+    "MindStride/backend/app/routes/uploads.py": {
+      "file_path": "MindStride/backend/app/routes/uploads.py",
+      "language": "py",
+      "symbols": [
+        "_is_non_class_subject",
+        "_normalize_raw_hour_minute",
+        "resolve_all_time_slots",
+        "_resolve_calendar_year",
+        "_parse_date_cell",
+        "detect_event_type",
+        "normalize_date",
+        "_validate_excel_extension",
+        "_read_excel",
+        "_capitalize_day",
+        "_parse_timetable_excel",
+        "_is_academic_calendar_format",
+        "_parse_academic_calendar_excel",
+        "_parse_simple_calendar_excel",
+        "_parse_calendar_excel",
+        "_replace_user_rows",
+        "upload_timetable",
+        "upload_calendar"
+      ]
+    },
+    "MindStride/backend/app/services/__init__.py": {
+      "file_path": "MindStride/backend/app/services/__init__.py",
+      "language": "py",
+      "symbols": []
+    },
+    "MindStride/backend/app/services/aggregation.py": {
+      "file_path": "MindStride/backend/app/services/aggregation.py",
+      "language": "py",
+      "symbols": [
+        "aggregate_daily",
+        "aggregate_weekly",
+        "calculate_productivity_score",
+        "determine_activity_level",
+        "calculate_focus_ratio",
+        "determine_productivity_trend",
+        "generate_summary"
+      ]
+    },
+    "MindStride/backend/app/services/supabase_client.py": {
+      "file_path": "MindStride/backend/app/services/supabase_client.py",
+      "language": "py",
+      "symbols": []
+    },
+    "MindStride/backend/app/utils/__init__.py": {
+      "file_path": "MindStride/backend/app/utils/__init__.py",
+      "language": "py",
+      "symbols": []
+    },
+    "MindStride/backend/app/utils/cleanup.py": {
+      "file_path": "MindStride/backend/app/utils/cleanup.py",
+      "language": "py",
+      "symbols": [
+        "cleanup_old_logs"
+      ]
+    },
+    "MindStride/backend/main.py": {
+      "file_path": "MindStride/backend/main.py",
+      "language": "py",
+      "symbols": []
+    },
+    "MindStride/backend/requirements.txt": {
+      "file_path": "MindStride/backend/requirements.txt",
+      "language": "txt",
+      "symbols": []
+    },
+    "MindStride/backend/tracker/session_watcher.py": {
+      "file_path": "MindStride/backend/tracker/session_watcher.py",
+      "language": "py",
+      "symbols": [
+        "get_session_file_path",
+        "_timestamp",
+        "read_active_user_identity",
+        "watch_session_for_changes"
+      ]
+    },
+    "MindStride/backend/tracker/tracker.py": {
+      "file_path": "MindStride/backend/tracker/tracker.py",
+      "language": "py",
+      "symbols": [
+        "has_supabase_config",
+        "get_runtime_configuration",
+        "resolve_tracker_identity",
+        "get_active_window",
+        "predict",
+        "log_activity",
+        "on_session_change",
+        "start_session_watcher",
+        "start_tracking"
+      ]
+    },
+    "MindStride/next.config.ts": {
+      "file_path": "MindStride/next.config.ts",
+      "language": "ts",
+      "symbols": []
+    },
+    "MindStride/README.md": {
+      "file_path": "MindStride/README.md",
+      "language": "md",
+      "symbols": []
+    },
+    "MindStride/src/app/(auth)/_components/social-auth.tsx": {
+      "file_path": "MindStride/src/app/(auth)/_components/social-auth.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SignInWithGoogle",
+        "SignInWithGithub"
+      ]
+    },
+    "MindStride/src/app/(auth)/login/[[...rest]]/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/login/[[...rest]]/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Page",
+        "PageProps"
+      ]
+    },
+    "MindStride/src/app/(auth)/login/clerk-only/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/login/clerk-only/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ClerkOnlyLoginPage"
+      ]
+    },
+    "MindStride/src/app/(auth)/login/signin-form.tsx": {
+      "file_path": "MindStride/src/app/(auth)/login/signin-form.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SignInForm",
+        "Inputs"
+      ]
+    },
+    "MindStride/src/app/(auth)/login/simple/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/login/simple/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SimpleLoginPage"
+      ]
+    },
+    "MindStride/src/app/(auth)/login/working/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/login/working/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "WorkingLoginPage"
+      ]
+    },
+    "MindStride/src/app/(auth)/login/working-v2/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/login/working-v2/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "WorkingLoginPageV2"
+      ]
+    },
+    "MindStride/src/app/(auth)/reset-password/_components/forgot-password.tsx": {
+      "file_path": "MindStride/src/app/(auth)/reset-password/_components/forgot-password.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ForgotPasswordForm",
+        "Inputs",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/app/(auth)/reset-password/_components/reset-password.tsx": {
+      "file_path": "MindStride/src/app/(auth)/reset-password/_components/reset-password.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ResetPasswordForm",
+        "Inputs",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/app/(auth)/reset-password/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/reset-password/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ResetPasswordPage",
+        "PageProps"
+      ]
+    },
+    "MindStride/src/app/(auth)/signup/[[...rest]]/page.tsx": {
+      "file_path": "MindStride/src/app/(auth)/signup/[[...rest]]/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Page",
+        "PageProps"
+      ]
+    },
+    "MindStride/src/app/(auth)/signup/signup-form.tsx": {
+      "file_path": "MindStride/src/app/(auth)/signup/signup-form.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SignupForm",
+        "Inputs"
+      ]
+    },
+    "MindStride/src/app/(parents)/parent/connect-child/page.tsx": {
+      "file_path": "MindStride/src/app/(parents)/parent/connect-child/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "requestConnection",
+        "ConnectChildPage"
+      ]
+    },
+    "MindStride/src/app/(parents)/parent/dashboard/page.tsx": {
+      "file_path": "MindStride/src/app/(parents)/parent/dashboard/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "formatDuration",
+        "ParentDashboard",
+        "ActivityLog"
+      ]
+    },
+    "MindStride/src/app/(students)/attendance/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/attendance/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "AttendancePage"
+      ]
+    },
+    "MindStride/src/app/(students)/student/attendance/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/attendance/page.tsx",
+      "language": "tsx",
+      "symbols": []
+    },
+    "MindStride/src/app/(students)/student/calender/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/calender/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "StudentCalenderPage"
+      ]
+    },
+    "MindStride/src/app/(students)/student/calender/upload/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/calender/upload/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CalenderUploadRedirectPage"
+      ]
+    },
+    "MindStride/src/app/(students)/student/dashboard/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/dashboard/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "formatDuration",
+        "approveRequest",
+        "rejectRequest",
+        "StudentDashboard",
+        "ParentRequest",
+        "ActivityLog"
+      ]
+    },
+    "MindStride/src/app/(students)/student/dashboard/student-dashboard-client.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/dashboard/student-dashboard-client.tsx",
+      "language": "tsx",
+      "symbols": [
+        "formatDuration",
+        "StudentDashboardClient",
+        "TrendPoint",
+        "StudentDashboardClientProps"
+      ]
+    },
+    "MindStride/src/app/(students)/student/digital-assistant/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/digital-assistant/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "DigitalAssistantPage"
+      ]
+    },
+    "MindStride/src/app/(students)/student/notes/page.tsx": {
+      "file_path": "MindStride/src/app/(students)/student/notes/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "getUploadErrorMessage",
+        "getDownloadFileName",
+        "StudentNotesPage",
+        "NoteRecord",
+        "VisibilityFilter"
+      ]
+    },
+    "MindStride/src/app/api/assistant/context/route.ts": {
+      "file_path": "MindStride/src/app/api/assistant/context/route.ts",
+      "language": "ts",
+      "symbols": [
+        "GET"
+      ]
+    },
+    "MindStride/src/app/api/auth/login/route.ts": {
+      "file_path": "MindStride/src/app/api/auth/login/route.ts",
+      "language": "ts",
+      "symbols": [
+        "POST"
+      ]
+    },
+    "MindStride/src/app/api/calendar/events/route.ts": {
+      "file_path": "MindStride/src/app/api/calendar/events/route.ts",
+      "language": "ts",
+      "symbols": [
+        "GET"
+      ]
+    },
+    "MindStride/src/app/api/calendar/save/route.ts": {
+      "file_path": "MindStride/src/app/api/calendar/save/route.ts",
+      "language": "ts",
+      "symbols": [
+        "POST",
+        "Mode",
+        "TimetableSaveEntry",
+        "CalendarSaveEntry"
+      ]
+    },
+    "MindStride/src/app/api/chat/route.ts": {
+      "file_path": "MindStride/src/app/api/chat/route.ts",
+      "language": "ts",
+      "symbols": [
+        "POST"
+      ]
+    },
+    "MindStride/src/app/api/clerk/webhook/route.ts": {
+      "file_path": "MindStride/src/app/api/clerk/webhook/route.ts",
+      "language": "ts",
+      "symbols": [
+        "POST",
+        "ClerkWebhookEvent"
+      ]
+    },
+    "MindStride/src/app/api/consent/route.ts": {
+      "file_path": "MindStride/src/app/api/consent/route.ts",
+      "language": "ts",
+      "symbols": [
+        "GET",
+        "POST"
+      ]
+    },
+    "MindStride/src/app/api/create-user/route.ts": {
+      "file_path": "MindStride/src/app/api/create-user/route.ts",
+      "language": "ts",
+      "symbols": [
+        "POST"
+      ]
+    },
+    "MindStride/src/app/api/notes/route.ts": {
+      "file_path": "MindStride/src/app/api/notes/route.ts",
+      "language": "ts",
+      "symbols": [
+        "getServerContext",
+        "GET",
+        "POST",
+        "CreateNotePayload"
+      ]
+    },
+    "MindStride/src/app/api/notes/signed-url/route.ts": {
+      "file_path": "MindStride/src/app/api/notes/signed-url/route.ts",
+      "language": "ts",
+      "symbols": [
+        "extractStoragePathFromFileUrl",
+        "POST"
+      ]
+    },
+    "MindStride/src/app/api/session/update/route.ts": {
+      "file_path": "MindStride/src/app/api/session/update/route.ts",
+      "language": "ts",
+      "symbols": [
+        "POST"
+      ]
+    },
+    "MindStride/src/app/debug-clerk/page.tsx": {
+      "file_path": "MindStride/src/app/debug-clerk/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "DebugClerkPage"
+      ]
+    },
+    "MindStride/src/app/digitalassistant/page.tsx": {
+      "file_path": "MindStride/src/app/digitalassistant/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "DigitalAssistantRedirectPage"
+      ]
+    },
+    "MindStride/src/app/layout.tsx": {
+      "file_path": "MindStride/src/app/layout.tsx",
+      "language": "tsx",
+      "symbols": [
+        "RootLayout"
+      ]
+    },
+    "MindStride/src/app/loading.tsx": {
+      "file_path": "MindStride/src/app/loading.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Loading"
+      ]
+    },
+    "MindStride/src/app/not-found.tsx": {
+      "file_path": "MindStride/src/app/not-found.tsx",
+      "language": "tsx",
+      "symbols": [
+        "NotFoundPage"
+      ]
+    },
+    "MindStride/src/app/onboarding/page.tsx": {
+      "file_path": "MindStride/src/app/onboarding/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "setRole",
+        "OnboardingPage",
+        "Role"
+      ]
+    },
+    "MindStride/src/app/onboarding/student-link/page.tsx": {
+      "file_path": "MindStride/src/app/onboarding/student-link/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "linkStudent",
+        "StudentLinkPage"
+      ]
+    },
+    "MindStride/src/app/page.tsx": {
+      "file_path": "MindStride/src/app/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Home"
+      ]
+    },
+    "MindStride/src/app/privacy/page.tsx": {
+      "file_path": "MindStride/src/app/privacy/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "PrivacyPage"
+      ]
+    },
+    "MindStride/src/app/profile/edit/actions.ts": {
+      "file_path": "MindStride/src/app/profile/edit/actions.ts",
+      "language": "ts",
+      "symbols": [
+        "saveProfile",
+        "SaveProfileInput"
+      ]
+    },
+    "MindStride/src/app/profile/edit/edit-profile-form.tsx": {
+      "file_path": "MindStride/src/app/profile/edit/edit-profile-form.tsx",
+      "language": "tsx",
+      "symbols": [
+        "EditProfileForm",
+        "EditProfileFormValues",
+        "EditProfileFormProps"
+      ]
+    },
+    "MindStride/src/app/profile/edit/page.tsx": {
+      "file_path": "MindStride/src/app/profile/edit/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "createServerSupabaseClient",
+        "EditProfilePage"
+      ]
+    },
+    "MindStride/src/app/profile/page.tsx": {
+      "file_path": "MindStride/src/app/profile/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ProfilePage"
+      ]
+    },
+    "MindStride/src/app/providers/toaster.tsx": {
+      "file_path": "MindStride/src/app/providers/toaster.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ToasterProvider"
+      ]
+    },
+    "MindStride/src/app/redirect/page.tsx": {
+      "file_path": "MindStride/src/app/redirect/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "RedirectPage",
+        "PageProps"
+      ]
+    },
+    "MindStride/src/app/simple-login/page.tsx": {
+      "file_path": "MindStride/src/app/simple-login/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SimpleLogin"
+      ]
+    },
+    "MindStride/src/app/teacher/dashboard/page.tsx": {
+      "file_path": "MindStride/src/app/teacher/dashboard/page.tsx",
+      "language": "tsx",
+      "symbols": [
+        "TeacherDashboard",
+        "TeacherStudent",
+        "TeacherClass"
+      ]
+    },
+    "MindStride/src/assets/homepage/core-features/index.ts": {
+      "file_path": "MindStride/src/assets/homepage/core-features/index.ts",
+      "language": "ts",
+      "symbols": []
+    },
+    "MindStride/src/assets/pricing/glow.tsx": {
+      "file_path": "MindStride/src/assets/pricing/glow.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GlowGradient",
+        "IconProps"
+      ]
+    },
+    "MindStride/src/assets/stars.tsx": {
+      "file_path": "MindStride/src/assets/stars.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Stars"
+      ]
+    },
+    "MindStride/src/components/agreement-consent-modal.tsx": {
+      "file_path": "MindStride/src/components/agreement-consent-modal.tsx",
+      "language": "tsx",
+      "symbols": [
+        "AgreementConsentModal",
+        "AgreementConsentModalProps"
+      ]
+    },
+    "MindStride/src/components/calendar/CalendarEvents.tsx": {
+      "file_path": "MindStride/src/components/calendar/CalendarEvents.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CalendarEvents",
+        "CalendarEvent",
+        "CalendarEventsProps"
+      ]
+    },
+    "MindStride/src/components/calendar/CalendarPage.tsx": {
+      "file_path": "MindStride/src/components/calendar/CalendarPage.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CalendarPage",
+        "TimetableEvent",
+        "CalendarEvent",
+        "EventsPayload"
+      ]
+    },
+    "MindStride/src/components/calendar/TimetableView.tsx": {
+      "file_path": "MindStride/src/components/calendar/TimetableView.tsx",
+      "language": "tsx",
+      "symbols": [
+        "normalizeTime",
+        "toMinutes",
+        "formatDisplayTime",
+        "normalizeDay",
+        "TimetableView",
+        "TimetableEvent",
+        "TimetableViewProps"
+      ]
+    },
+    "MindStride/src/components/coding-profiles/codeforces-card.tsx": {
+      "file_path": "MindStride/src/components/coding-profiles/codeforces-card.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CodeforcesCard",
+        "CodeforcesData"
+      ]
+    },
+    "MindStride/src/components/coding-profiles/gfg-card.tsx": {
+      "file_path": "MindStride/src/components/coding-profiles/gfg-card.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GfgCard",
+        "GfgData"
+      ]
+    },
+    "MindStride/src/components/coding-profiles/github-card.tsx": {
+      "file_path": "MindStride/src/components/coding-profiles/github-card.tsx",
+      "language": "tsx",
+      "symbols": [
+        "formatLabel",
+        "calculateLanguagePercentage",
+        "getContributionLevel",
+        "getCommunityScore",
+        "GitHubCard",
+        "GitHubData"
+      ]
+    },
+    "MindStride/src/components/coding-profiles/hackerrank-card.tsx": {
+      "file_path": "MindStride/src/components/coding-profiles/hackerrank-card.tsx",
+      "language": "tsx",
+      "symbols": [
+        "calculatePercentage",
+        "getSkillLevel",
+        "calculateOverallScore",
+        "HackerRankCard",
+        "HackerRankData"
+      ]
+    },
+    "MindStride/src/components/coding-profiles/leetcode-card.tsx": {
+      "file_path": "MindStride/src/components/coding-profiles/leetcode-card.tsx",
+      "language": "tsx",
+      "symbols": [
+        "getHeatColor",
+        "getDifficultyPercentage",
+        "getActivityLevel",
+        "getContestTier",
+        "LeetCodeCard",
+        "LeetCodeData"
+      ]
+    },
+    "MindStride/src/components/copy-to-clipboard.tsx": {
+      "file_path": "MindStride/src/components/copy-to-clipboard.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CopyToClipboard"
+      ]
+    },
+    "MindStride/src/components/digital-assistant/digital-assistant-client.tsx": {
+      "file_path": "MindStride/src/components/digital-assistant/digital-assistant-client.tsx",
+      "language": "tsx",
+      "symbols": [
+        "formatDuration",
+        "sanitizeAssistantText",
+        "renderAssistantText",
+        "DigitalAssistantClient",
+        "StatCard",
+        "InfoRow",
+        "AssistantContextResponse"
+      ]
+    },
+    "MindStride/src/components/generator/generator-header.tsx": {
+      "file_path": "MindStride/src/components/generator/generator-header.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GeneratorHeader"
+      ]
+    },
+    "MindStride/src/components/generator/generator-input.tsx": {
+      "file_path": "MindStride/src/components/generator/generator-input.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GeneratorInput",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/generator/generator-wrapper.tsx": {
+      "file_path": "MindStride/src/components/generator/generator-wrapper.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GeneratorWrapper"
+      ]
+    },
+    "MindStride/src/components/generator/render-message.tsx": {
+      "file_path": "MindStride/src/components/generator/render-message.tsx",
+      "language": "tsx",
+      "symbols": [
+        "RenderMessage",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/generator/sidebar/chat-history-sidebar.tsx": {
+      "file_path": "MindStride/src/components/generator/sidebar/chat-history-sidebar.tsx",
+      "language": "tsx",
+      "symbols": [
+        "RightSidebar",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/generator/sidebar/generator-sidebar-nav.tsx": {
+      "file_path": "MindStride/src/components/generator/sidebar/generator-sidebar-nav.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GeneratorSidebarNav"
+      ]
+    },
+    "MindStride/src/components/generator/sidebar/generator-sidebar.tsx": {
+      "file_path": "MindStride/src/components/generator/sidebar/generator-sidebar.tsx",
+      "language": "tsx",
+      "symbols": [
+        "GeneratorSidebar"
+      ]
+    },
+    "MindStride/src/components/generator/sidebar/new-chat.tsx": {
+      "file_path": "MindStride/src/components/generator/sidebar/new-chat.tsx",
+      "language": "tsx",
+      "symbols": [
+        "NewChat",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/generator/sidebar/sidebar-widget.tsx": {
+      "file_path": "MindStride/src/components/generator/sidebar/sidebar-widget.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SidebarWidget"
+      ]
+    },
+    "MindStride/src/components/generator/text/ai-response.tsx": {
+      "file_path": "MindStride/src/components/generator/text/ai-response.tsx",
+      "language": "tsx",
+      "symbols": [
+        "AiResponse",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/generator/text/user-message.tsx": {
+      "file_path": "MindStride/src/components/generator/text/user-message.tsx",
+      "language": "tsx",
+      "symbols": [
+        "UserMessage",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/gradient-blob.tsx": {
+      "file_path": "MindStride/src/components/gradient-blob.tsx",
+      "language": "tsx",
+      "symbols": [
+        "getGradientColor",
+        "getAnimationClass",
+        "GradientBlob",
+        "GradientBlob2",
+        "SVGPropsType",
+        "GradientVariant",
+        "GradientBlobProps"
+      ]
+    },
+    "MindStride/src/components/layout/footer.tsx": {
+      "file_path": "MindStride/src/components/layout/footer.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Footer"
+      ]
+    },
+    "MindStride/src/components/layout/header/desktop-nav.tsx": {
+      "file_path": "MindStride/src/components/layout/header/desktop-nav.tsx",
+      "language": "tsx",
+      "symbols": [
+        "DesktopNav"
+      ]
+    },
+    "MindStride/src/components/layout/header/header.tsx": {
+      "file_path": "MindStride/src/components/layout/header/header.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Header"
+      ]
+    },
+    "MindStride/src/components/layout/header/main-mobile-nav.tsx": {
+      "file_path": "MindStride/src/components/layout/header/main-mobile-nav.tsx",
+      "language": "tsx",
+      "symbols": [
+        "MainMobileNav",
+        "MobileMenuProps"
+      ]
+    },
+    "MindStride/src/components/layout/header/nav-items.ts": {
+      "file_path": "MindStride/src/components/layout/header/nav-items.ts",
+      "language": "ts",
+      "symbols": [
+        "NavItem"
+      ]
+    },
+    "MindStride/src/components/layout/header/theme-toggle.tsx": {
+      "file_path": "MindStride/src/components/layout/header/theme-toggle.tsx",
+      "language": "tsx",
+      "symbols": [
+        "ThemeToggle"
+      ]
+    },
+    "MindStride/src/components/sections/benefits-grid.tsx": {
+      "file_path": "MindStride/src/components/sections/benefits-grid.tsx",
+      "language": "tsx",
+      "symbols": [
+        "BenefitsGrid"
+      ]
+    },
+    "MindStride/src/components/sections/client-testimonial.tsx": {
+      "file_path": "MindStride/src/components/sections/client-testimonial.tsx",
+      "language": "tsx",
+      "symbols": [
+        "TestimonialsSection",
+        "TestimonialCard"
+      ]
+    },
+    "MindStride/src/components/sections/core-features/data.ts": {
+      "file_path": "MindStride/src/components/sections/core-features/data.ts",
+      "language": "ts",
+      "symbols": []
+    },
+    "MindStride/src/components/sections/core-features/index.tsx": {
+      "file_path": "MindStride/src/components/sections/core-features/index.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CoreFeatures"
+      ]
+    },
+    "MindStride/src/components/sections/faq-accordion.tsx": {
+      "file_path": "MindStride/src/components/sections/faq-accordion.tsx",
+      "language": "tsx",
+      "symbols": [
+        "FaqAccordion",
+        "FAQItem",
+        "FAQItem"
+      ]
+    },
+    "MindStride/src/components/sections/hero-logos.tsx": {
+      "file_path": "MindStride/src/components/sections/hero-logos.tsx",
+      "language": "tsx",
+      "symbols": [
+        "HeroLogos"
+      ]
+    },
+    "MindStride/src/components/sections/hero-section/index.tsx": {
+      "file_path": "MindStride/src/components/sections/hero-section/index.tsx",
+      "language": "tsx",
+      "symbols": [
+        "HeroSection"
+      ]
+    },
+    "MindStride/src/components/sections/hero-section/subheading.tsx": {
+      "file_path": "MindStride/src/components/sections/hero-section/subheading.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Subheading",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/sections/pricing/card.tsx": {
+      "file_path": "MindStride/src/components/sections/pricing/card.tsx",
+      "language": "tsx",
+      "symbols": [
+        "PricingCard",
+        "ContactSalesLink",
+        "Props"
+      ]
+    },
+    "MindStride/src/components/sections/pricing/data.ts": {
+      "file_path": "MindStride/src/components/sections/pricing/data.ts",
+      "language": "ts",
+      "symbols": [
+        "TBILLING_PLAN"
+      ]
+    },
+    "MindStride/src/components/sections/pricing/index.tsx": {
+      "file_path": "MindStride/src/components/sections/pricing/index.tsx",
+      "language": "tsx",
+      "symbols": [
+        "PricingSection",
+        "BillingPeriodKey"
+      ]
+    },
+    "MindStride/src/components/sections/tools-tab.tsx": {
+      "file_path": "MindStride/src/components/sections/tools-tab.tsx",
+      "language": "tsx",
+      "symbols": [
+        "AIToolsTabs",
+        "Tab"
+      ]
+    },
+    "MindStride/src/components/session-updater.tsx": {
+      "file_path": "MindStride/src/components/session-updater.tsx",
+      "language": "tsx",
+      "symbols": [
+        "SessionUpdater"
+      ]
+    },
+    "MindStride/src/components/ui/inputs/checkbox.tsx": {
+      "file_path": "MindStride/src/components/ui/inputs/checkbox.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Checkbox",
+        "CheckboxProps"
+      ]
+    },
+    "MindStride/src/components/ui/inputs/index.tsx": {
+      "file_path": "MindStride/src/components/ui/inputs/index.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Input",
+        "InputGroup",
+        "PasswordInput",
+        "InputProps",
+        "InputGroupProps",
+        "PasswordInputProps"
+      ]
+    },
+    "MindStride/src/components/ui/inputs/textarea.tsx": {
+      "file_path": "MindStride/src/components/ui/inputs/textarea.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Textarea",
+        "AutoGrowingTextArea",
+        "TextareaProps",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/components/ui/label.tsx": {
+      "file_path": "MindStride/src/components/ui/label.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Label",
+        "LabelProps"
+      ]
+    },
+    "MindStride/src/components/ui/modal/modal.tsx": {
+      "file_path": "MindStride/src/components/ui/modal/modal.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Modal",
+        "ModalProps"
+      ]
+    },
+    "MindStride/src/components/ui/pagination.tsx": {
+      "file_path": "MindStride/src/components/ui/pagination.tsx",
+      "language": "tsx",
+      "symbols": [
+        "Pagination",
+        "PaginationButton",
+        "PaginationEllipsis",
+        "PropsType"
+      ]
+    },
+    "MindStride/src/context/right-sidebar.ts": {
+      "file_path": "MindStride/src/context/right-sidebar.ts",
+      "language": "ts",
+      "symbols": [
+        "useRightSidebarContext",
+        "ContextValues"
+      ]
+    },
+    "MindStride/src/hooks/use-click-outside.ts": {
+      "file_path": "MindStride/src/hooks/use-click-outside.ts",
+      "language": "ts",
+      "symbols": [
+        "useClickOutside"
+      ]
+    },
+    "MindStride/src/icons/icons.tsx": {
+      "file_path": "MindStride/src/icons/icons.tsx",
+      "language": "tsx",
+      "symbols": [
+        "CheckIcon",
+        "PlusIcon",
+        "MinusIcon",
+        "TextGeneratorIcon",
+        "ImageGeneratorIcon",
+        "CodeGeneratorIcon",
+        "VideoGeneratorIcon",
+        "EmailGeneratorIcon",
+        "CheckIconSm",
+        "EyeIcon",
+        "EyeCloseIcon",
+        "CloseIcon",
+        "MenuIcon",
+        "UserIcon",
+        "SettingsIcon",
+        "InfoIcon",
+        "LogOutIcon",
+        "ChevronDownIcon",
+        "MoreVerticalIcon",
+        "ClipboardIcon",
+        "ThumbsUpIcon",
+        "ThumbsDownIcon",
+        "SearchIcon",
+        "CheckMarkIcon",
+        "PencilIcon",
+        "LongArrowUpIcon",
+        "AttachmentIcon",
+        "ChevronDown2Icon",
+        "BellIcon",
+        "XIcon",
+        "CodeXmlIcon",
+        "GoogleIcon",
+        "GithubIcon",
+        "CheckMarkIcon2",
+        "TrashIcon",
+        "ChatGPTIcon",
+        "MidjourneyIcon",
+        "FigmaIcon",
+        "DownloadIcon",
+        "IconProps"
+      ]
+    },
+    "MindStride/src/lib/ai/assistant-context.ts": {
+      "file_path": "MindStride/src/lib/ai/assistant-context.ts",
+      "language": "ts",
+      "symbols": [
+        "createServerSupabase",
+        "toNumber",
+        "summarizeUsage",
+        "summarizeNotes",
+        "buildAssistantContext",
+        "formatCompactList",
+        "buildAssistantSystemPrompt",
+        "DesktopActivityLog",
+        "AssistantContext"
+      ]
+    },
+    "MindStride/src/lib/ai/model.ts": {
+      "file_path": "MindStride/src/lib/ai/model.ts",
+      "language": "ts",
+      "symbols": []
+    },
+    "MindStride/src/lib/ai/prompts.ts": {
+      "file_path": "MindStride/src/lib/ai/prompts.ts",
+      "language": "ts",
+      "symbols": []
+    },
+    "MindStride/src/lib/auth.ts": {
+      "file_path": "MindStride/src/lib/auth.ts",
+      "language": "ts",
+      "symbols": [
+        "getRolePriority",
+        "hasPermission",
+        "createAuditMetadata",
+        "requireRole",
+        "requirePermission",
+        "getUserRole",
+        "getUserProfile",
+        "Permission"
+      ]
+    },
+    "MindStride/src/lib/coding-profiles.ts": {
+      "file_path": "MindStride/src/lib/coding-profiles.ts",
+      "language": "ts",
+      "symbols": [
+        "fetchGitHub",
+        "fetchCodeforces",
+        "fetchLeetCode",
+        "createMetadata",
+        "isValidResponse",
+        "normalizeUsername",
+        "fetchWithRetry",
+        "fetchGFG",
+        "fetchHackerRank"
+      ]
+    },
+    "MindStride/src/lib/server-supabase-user.ts": {
+      "file_path": "MindStride/src/lib/server-supabase-user.ts",
+      "language": "ts",
+      "symbols": [
+        "validateSupabaseConfig",
+        "createServerSupabaseClient",
+        "fetchUserProfile",
+        "getServerUserContext"
+      ]
+    },
+    "MindStride/src/lib/supabase.ts": {
+      "file_path": "MindStride/src/lib/supabase.ts",
+      "language": "ts",
+      "symbols": []
+    },
+    "MindStride/src/lib/types.ts": {
+      "file_path": "MindStride/src/lib/types.ts",
+      "language": "ts",
+      "symbols": [
+        "UserRole",
+        "Database",
+        "User",
+        "Student",
+        "Parent",
+        "Teacher",
+        "Class",
+        "UserWithProfile"
+      ]
+    },
+    "MindStride/src/lib/utils.ts": {
+      "file_path": "MindStride/src/lib/utils.ts",
+      "language": "ts",
+      "symbols": [
+        "cn",
+        "getCurrentYear",
+        "getMostRecentUserMessage",
+        "formatError",
+        "getScrollBarWidth",
+        "formatRelativeTime",
+        "isBrowserEnvironment",
+        "generateUniqueId",
+        "debounce",
+        "groupMessagesByRole",
+        "truncateText",
+        "isNonEmptyString",
+        "calculateReadingTime",
+        "calculateWordCount",
+        "estimateReadingSpeed",
+        "sortMessagesByTimestamp",
+        "isValidUUID",
+        "clampNumber",
+        "capitalizeFirstLetter"
+      ]
+    },
+    "MindStride/src/lib/zod/auth.schema.ts": {
+      "file_path": "MindStride/src/lib/zod/auth.schema.ts",
+      "language": "ts",
+      "symbols": [
+        "authValidation",
+        "authSchema"
+      ]
+    },
+    "MindStride/src/middleware.ts": {
+      "file_path": "MindStride/src/middleware.ts",
+      "language": "ts",
+      "symbols": []
+    }
+  },
+  "edges": [
+    {
+      "source": "MindStride/backend/app/main.py",
+      "target": "MindStride/backend/app/utils/cleanup.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/main.py",
+      "target": "MindStride/backend/app/routes/__init__.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/routes/logs.py",
+      "target": "MindStride/backend/app/services/aggregation.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/routes/logs.py",
+      "target": "MindStride/backend/app/services/supabase_client.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/routes/predict.py",
+      "target": "MindStride/backend/app/ml/model.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/routes/summary.py",
+      "target": "MindStride/backend/app/services/supabase_client.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/routes/uploads.py",
+      "target": "MindStride/backend/app/services/supabase_client.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/services/aggregation.py",
+      "target": "MindStride/backend/app/services/supabase_client.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/services/supabase_client.py",
+      "target": "MindStride/src/lib/supabase.ts",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/app/utils/cleanup.py",
+      "target": "MindStride/backend/app/services/supabase_client.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/main.py",
+      "target": "MindStride/backend/app/main.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/tracker/tracker.py",
+      "target": "MindStride/backend/tracker/session_watcher.py",
+      "dependency_type": "import"
+    },
+    {
+      "source": "MindStride/backend/tracker/tracker.py",
+      "target": "MindStride/src/lib/supabase.ts",
+      "dependency_type": "import"
+    }
+  ]
+}

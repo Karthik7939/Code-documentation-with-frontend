@@ -1,0 +1,12 @@
+{
+    "workflow_id": "8c1ba471-c632-4414-8bf5-c982cdbcf99b",
+    "repository": "Blrm123/Doc_generation_test",
+    "branch": "main",
+    "status": "failed",
+    "commit_sha": "6571a942678380d0cabf284c5a369e3f62f7b8bc",
+    "timestamp": "2026-07-21T17:38:18Z",
+    "changed_files": [
+        "test.py"
+    ],
+    "error_message": "Failed at SyncAgent"
+}
